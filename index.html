@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Parquimetro</title>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>&#128663; Parquimetro</h1>
+        </header>
+
+        <section class="display">
+            <p id="valor">Valor: <strong>R$:00,00</strong></p>
+            <p id="tempo" >Tempo: <strong>00h:00min</strong></p>
+            
+            
+        </section>
+
+        <section class="teclado">
+            <button type="button">1</button>
+            <button type="button">2</button>
+            <button type="button">3</button>
+            <button type="button">4</button>
+            <button type="button">5</button>
+            <button type="button">6</button>
+            <button type="button">7</button>
+            <button type="button">8</button>
+            <button type="button">9</button>
+            <button type="button">0</button>
+            <button onclick="limparDisplay()" type="button">←</button>
+            <button onclick="calcularTempo()" type="button">Calcular Tempo</button>
+            <button type="button" class="confirmar" >Confirmar Pagamento</button>
+        </section>
+
+        <footer>
+            <address>
+                <p>Estacionamento Urbano <br>
+                Pagamento obrigatório</p>
+            </address>
+            
+            <p>&copy;2025 Desenvolvido por Augusto Silveira.</p>
+        </footer>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
